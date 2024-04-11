@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ball_customization *.css
+recursive-include ball_customization *.csv
+recursive-include ball_customization *.html
+recursive-include ball_customization *.ico
+recursive-include ball_customization *.js
+recursive-include ball_customization *.json
+recursive-include ball_customization *.md
+recursive-include ball_customization *.png
+recursive-include ball_customization *.py
+recursive-include ball_customization *.svg
+recursive-include ball_customization *.txt
+recursive-exclude ball_customization *.pyc
