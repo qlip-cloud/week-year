@@ -173,3 +173,16 @@ user_data_fields = [
 # 	"ball_customization.auth.validate"
 # ]
 
+# fixtures
+# -----------------------------------------
+
+fixtures = [
+    {"doctype": "Property Setter", "filters": [
+        [
+            "name", "in", [
+                "Sales Order-per_billed-in_list_view",
+                "Sales Order-per_delivered-in_list_view"
+            ]
+        ]
+    ]}
+]
