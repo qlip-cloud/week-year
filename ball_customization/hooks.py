@@ -59,6 +59,9 @@ app_license = "MIT"
 # before_install = "ball_customization.install.before_install"
 # after_install = "ball_customization.install.after_install"
 
+before_migrate  = "ball_customization.ball_customization.migration.property_setter_migration.before_migrate"
+after_migrate    = "ball_customization.ball_customization.migration.property_setter_migration.after_migrate"
+
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
