@@ -45,11 +45,11 @@ def send_sales_order_for_delivery_date(sales_order):
 
         res['body_data'] = so_json
 
-        # so_respose = execute_send(company_name=company, endpoint_code=INTGVENT, json_data=so_json)
+        so_respose = execute_send(company_name=company, endpoint_code=INTGVENT, json_data=so_json)
 
         # mock
         # so_respose = {'Estado': 'Falla', 'Detalle': ''}
-        so_respose =  {'Estado': 'Exitoso', 'Detalle': 'PRB-003'}
+        # so_respose =  {'Estado': 'Exitoso', 'Detalle': 'PRB-003'}
 
         print("so_respose-->", so_respose)
 
